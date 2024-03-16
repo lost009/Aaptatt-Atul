@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  my_container:
+    image: dhaddu/sparkjava:latest
+    container_name: java
+    ports:
+      - "8080:8080"
